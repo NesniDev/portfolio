@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Neider</title>
+    <link rel="icon" href="img/icono.png">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&family=Rubik+Gemstones&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mejorasJS.css">
+    <link rel="stylesheet" href="css/mediaquerys.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header " >
+            <nav class="bar-nav" id="bar-nav">
+                <div class="brand">
+                    <a href="/"><i class="fab fa-connectdevelop"></i></a>
+                </div>
+                <ul class="menu-list" id="menu">
+                    <!-- <li class="nav__item"><a href="#">Inicio</a></li> -->
+                    <li class="nav__item"><a href="/proyectos.html">Proyectos</a></li>
+                    <li class="nav__item"><a href="/">Inicio</a></li>
+                </ul>
+
+                <div class="dark-mode">
+                    <!-- <p class="dark-mode-title">Dark Mode</p> -->
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <!-- <i class="fab fa-duotone fa-moon"></i> -->
+                    <label class="switch" for="checkbox"></label>
+                </div>
+                <a href="#bar-nav" class="nav__hamburguer">
+                    <i class="fa-solid fa-bars nav__icon"></i>
+                </a>
+                <a href="#" class="nav__close">
+                    <i class="fa-solid fa-xmark nav__icon"></i>
+                </a>
+            </nav>
+            
+            <div class="social-fixed animate__animated animate__bounce animate__faster" id="seccionIcono">
+                <a href="https://wa.me/573132405135" target="__blank" class="button-whatsapp">
+                    <img src="img/whatsapp.png" class="fab3" alt="icono whatsapp">
+                    </i></a>
+                <a href="https://www.linkedin.com/in/neidernieto/" target="__blank" class="button-whatsapp">
+                    <img src="img/linkedin.png" class="fab3" alt="icono whatsapp">
+                    </i></a>
+            </div>
+            <!-- <div class="idioma-fixed" id="seccionIdioma">
+                <a href="#" class="bandera-en">
+                    <img src="img/bandera_inglés.webp" class="fabIdioma" alt="icono whatsapp">
+                </a>
+                <a href="#" class="bandera-es">
+                    <img src="img/bandera_colombia.jpg" class="fabIdioma" alt="icono whatsapp">
+                </a>
+            </div> -->
+        </header>
+
+        <section class="projects b-before" id="seccionProjects">
+            <article class="projects-one line-top line-bottom ">
+                <div class="projects-one-img img1"></div>
+                <h2>Portafolio</h2>
+                <p class="cursiva">html, css, js</p>
+                <p class="project-texto">Portafolio responsivo donde se encuentra toda la información referente a mi
+                    vida (trabajos, estudios, aprendizajes, etc.) en la web.</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="#"><i class="circle fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img4"></div>
+                <h2>Ventas Inmobiliaria</h2>
+                <p class="cursiva">html, css</p>
+                <p class="project-texto">En este apartado se evidencia un proyecto educativo que he desarrollado durante
+                    mi aprendizaje en la universidad.</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="https://inmobiliariausg.netlify.app/" target="_blank"><i
+                            class="circle fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img2"></div>
+                <h2>Farmacia</h2>
+                <p class="cursiva">php, mysql, BOOSTRAP</p>
+                <p class="project-texto">Proyecto sobre una farmacia que permite administrar los productos internos para
+                    una mejor organización de sus productos</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="#"><i class="circle fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img3"></div>
+                <h2>API - Rick And Morty</h2>
+                <p class="cursiva">React, Css</p>
+                <p class="project-texto">Proyecto de una API para la visualización de los personajes de Rick And Morty
+                    con su respectiva información.</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="https://apiriickandmorty.netlify.app/" target="_blank"><i
+                            class="circle fas fa-globe"></i></a>
+                    <a href="https://github.com/NesniDev/Rick-Morty-Api" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img5"></div>
+                <h2>API - Clima</h2>
+                <p class="cursiva">React, Css y Tailwind Css</p>
+                <p class="project-texto">Proyecto de una API para la visualización del clima de las ciudades en tiempo real y el clima en horas posteriores.</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="https://apiclimaopenweathermap.netlify.app/" target="_blank"><i
+                            class="circle fas fa-globe"></i></a>
+                    <a href="https://github.com/NesniDev/ApiClimaConOpenweathermap" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img6"></div>
+                <h2>Social Media</h2>
+                <p class="cursiva">Html y Css</p>
+                <p class="project-texto">Aplicación de información personal en redes sociales con datos ficticios para una mejor interactividad, dark mode incluido. (By Frontend Mentor)</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="https://socialmediadark.netlify.app/" target="_blank"><i
+                            class="circle fas fa-globe"></i></a>
+                    <a href="https://github.com/NesniDev/Social-Media-FM" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img9"></div>
+                <h2>Landing Page</h2>
+                <p class="cursiva">Html y Css</p>
+                <p class="project-texto">Landing page con datos ficticios, ejemplo para un mejor desempeño en el lado del Frontend. (By Frontend Mentor)</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="https://landingpage-fm.netlify.app/" target="_blank"><i
+                            class="circle fas fa-globe"></i></a>
+                    <a href="https://github.com/NesniDev/Landing-page" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img10"></div>
+                <h2>Color Picker</h2>
+                <p class="cursiva">Html, Css, Boostrap y Javascript</p>
+                <p class="project-texto">Aplicación de selección de color que permite obtener el código "HEX" de cualquier color que se seleccione en la pantalla.</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="https://colorpicker-js.netlify.app/" target="_blank"><i
+                            class="circle fas fa-globe"></i></a>
+                    <a href="https://github.com/NesniDev/Color-picker" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+        </section>
+        <footer class="footer" id="seccionFooter">
+            <div class="contenedor-footer">
+                <div class="seccionUno p-footer">
+                    <h2>Contactáme</h2>
+                    <p>neidernieto@unisangil.edu.co</p>
+                    <p>Carrera 11B # 99 – 25 – Chiquinquirá-Boyacá, Colombia</p>
+                    <p>(+57) 3132405135</p>
+                </div>
+                <div class="seccionDos">
+                    <div class="colum-footer">
+                        <a href="#">Experiencia</a>
+                        <ul class="list-footer">
+                            <li>Vendedor</li>
+                            <li>Asesor en Banco</li>
+                            <li>Técnico en Sistemas</li>
+                        </ul>
+                    </div>
+                    <div class="colum-footer">
+                        <a href="#">Herramientas</a>
+                        <ul class="list-footer">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="colum-footer">
+                        <a href="#">Estudios</a>
+                        <ul class="list-footer">
+                            <li>Técnico</li>
+                            <li>Ingeniería</li>
+                            <li>Especialización</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-network">
+                <a href="https://wa.me/573132405135" target="_blank"><i class="fab fa-whatsapp fab2"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/neider.stith/" target="_blank"><i class="fab fa-facebook fab2"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/neidernieto/" target="_blank"><i
+                        class="fab fa-brands fa-linkedin fab2"></i></a>
+                <a href="https://www.instagram.com/neider_niet0/" target="_blank"><i class="fab fa-instagram fab2"
+                        aria-hidden="true"></i></a>
+                <a href="https://twitter.com/NeiderNieto10" target="_blank"><i class="fab fa-twitter-square fab2"
+                        aria-hidden="true"></i></a>
+                <a href="https://github.com/NesniDev" target="_blank"><i
+                        class="fab fa-brands fa-github fa-githubicon fab2" aria-hidden="true"></i></a>
+            </div>
+
+            <p class="derechos">Neider Nieto © 2022 | Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <!-- <script src="https://use.fontawesome.com/your-embed-code.js"></script>  -->
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main_proyects.js"></script>
+    <!-- <script src="js/carrusel.js"></script> -->
+    <!-- <script src="js/sweetAlert.js"></script> -->
+</body>
+
+</html>

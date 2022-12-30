@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Neider</title>
+    <link rel="icon" href="img/icono.png">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&family=Rubik+Gemstones&family=Rubik+Vinyl&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mejorasJS.css">
+    <link rel="stylesheet" href="css/mediaquerys.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="bar-nav" id="bar-nav">
+                <div class="brand">
+                    <a href="/"><i class="fab fa-connectdevelop"></i></a>
+                </div>
+                <ul class="menu-list" id="menu">
+                    <!-- <li class="nav__item"><a href="#">Inicio</a></li> -->
+                    <li class="nav__item"><a href="proyectos.html">Proyectos</a></li>
+                    <li class="nav__item"><a href="/#SeccionDeHabilidades">Habilidades</a></li>
+                    <li class="nav__item"><a href="#SeccionDeContacto">Contacto</a></li>
+                </ul>
+
+                <div class="dark-mode">
+                    <!-- <p class="dark-mode-title">Dark Mode</p> -->
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <!-- <i class="fab fa-duotone fa-moon"></i> -->
+                    <label class="switch" for="checkbox"></label>
+                </div>
+                <a href="#bar-nav" class="nav__hamburguer">
+                    <i class="fa-solid fa-bars nav__icon"></i>
+                </a>
+                <a href="#" class="nav__close">
+                    <i class="fa-solid fa-xmark nav__icon"></i>
+                </a>
+            </nav>
+            <div class="social-fixed animate__animated animate__bounce animate__faster" id="seccionIcono">
+                <a href="https://wa.me/573132405135" target="__blank" class="button-whatsapp">
+                    <img src="img/whatsapp.png" class="fab3" alt="icono whatsapp">
+                    </i></a>
+                <a href="https://www.linkedin.com/in/neidernieto/" target="__blank" class="button-whatsapp">
+                    <img src="img/linkedin.png" class="fab3" alt="icono whatsapp">
+                    </i></a>
+            </div>
+            <!-- <div class="idioma-fixed" id="seccionIdioma">
+                <a href="#" class="bandera-en">
+                    <img src="img/bandera_inglés.webp" class="fabIdioma" alt="icono whatsapp">
+                </a>
+                <a href="#" class="bandera-es">
+                    <img src="img/bandera_colombia.jpg" class="fabIdioma" alt="icono whatsapp">
+                </a>
+            </div> -->
+        </header>
+        <!-- <hr> -->
+
+        <section class="info-personal" id="seccionPersonal">
+            <div class="info-personal-content">
+                <h2>Neider Stith Nieto Rodriguez</h2>
+                <h5 class="h5"><span class="typed5"></span></h5>
+                <div class="h5"></div>
+                <p style="text-align: left;">
+                    Soy un desarrollador frontend con experiencia en el diseño y desarrollo de sitios web. Me gusta
+                    mantenerme actualizado con las últimas tendencias y tecnologías en el mundo del desarrollo web, y
+                    siempre estoy buscando nuevas formas de mejorar mis habilidades y ampliar mis conocimientos. <a
+                        href="#SeccionDeContacto">Contáctame</a>. <b> ¡Espero tener la oportunidad de hablar
+                        contigo!</b>
+                </p>
+                <div class="btn-download-center">
+                    <a href="#" target="_blank" class="btn-download">Ver Hoja de Vida</a>
+                </div>
+            </div>
+            <div class="info-personal-image">
+
+            </div>
+        </section>
+
+        <h4 class="h4"><span class="typed"></span></h4>
+        <div class="h4" id="cadena-texto">
+            <h4>INFORMACIÓN SOBRE MI <i class="texto">carrera</i> </h4>
+        </div>
+        <!-- <hr> -->
+
+        <div class="show-slide b-before" id="seccionSlide">
+            <h2>Ingeniero de Sistemas</h2>
+            <p>"Primero aprende informática y toda la teoría.
+                Después desarrolla <br> un estilo de programación.
+                Entonces, olvídalo todo y hackea" <br>
+                <q>George Carrette</q>
+            </p>
+            <a href="#" class="btn">Leer Más <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <h4 class="h4"><span class="typed2"></span></h4>
+        <div class="h4" id="cadena-texto-proyecto">
+            <h4>MIS PROYECTOS <i class="texto" id="SeccionDeProyectos">realizados</i> </h4>
+        </div>
+        <!-- <hr> -->
+        <section class="projects b-before" id="seccionProjects">
+            <article class="projects-one line-top line-bottom ">
+                <div class="projects-one-img img1"></div>
+                <h2>Portafolio</h2>
+                <p class="cursiva">html, css, js</p>
+                <p class="project-texto">Portafolio responsivo donde se encuentra toda la información referente a mi
+                    vida (trabajos, estudios, aprendizajes, etc.) en la web.</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="#"><i class="circle fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img4"></div>
+                <h2>Ventas Inmobiliaria</h2>
+                <p class="cursiva">html, css</p>
+                <p class="project-texto">En este apartado se evidencia un proyecto educativo que he desarrollado durante
+                    mi aprendizaje en la universidad.</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="https://inmobiliariausg.netlify.app/" target="_blank"><i
+                            class="circle fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img3"></div>
+                <h2>API - Rick And Morty</h2>
+                <p class="cursiva">React, Css</p>
+                <p class="project-texto">Proyecto de una API para la visualización de los personajes de Rick And Morty
+                    con su respectiva información.</p>
+                <div class="iconos-card">
+                    <!-- <a href="#"><i class="fas fa-cloud"></i></a> -->
+                    <a href="https://apiriickandmorty.netlify.app/" target="_blank"><i
+                            class="circle fas fa-globe"></i></a>
+                    <a href="https://github.com/NesniDev/Rick-Morty-Api" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+        </section>
+        <div class="button_projects">
+            <a href="proyectos.html">></a>
+        </div>
+        <h4 class="h4" id="SeccionDeHabilidades"><span id="SeccionDeProyectos" class="typed3"></span></h4>
+        <div class="h4" id="cadena-texto-habilidades">
+            <h4>MANEJO DE <i class="texto">tecnologías</i> </h4>
+        </div>
+        <!-- <hr> -->
+
+        <section class="slider">
+            <div class="slider__container containerr" id="seccionTools">
+                <i class="fa-solid fa-hand-point-left slider_arrow" id="next"></i>
+                <!-- <img src="img/left_arrow.svg"  alt="left arrow" > -->
+
+                <div class="carrusel_body carrusel_body-show" data-id="1">
+                    <img src="img/Tecnologys/html5.jpg" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_html">HTML 5 <i class="fa-brands fa-html5 "></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="2">
+                    <img src="img/Tecnologys/css.jpg" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_css">CSS <i class="fa-brands fa-css3-alt"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="3">
+                    <img src="img/Tecnologys/js.jpg" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_js">JAVASCRIPT <i class="fa-brands fa-js"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="4">
+                    <img src="img/Tecnologys/bootstrap.jpg" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_boostrap">BOOSTRAP <i
+                                class="fa-brands fa-bootstrap"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="5">
+                    <img src="img/Tecnologys/java.png" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_java">JAVA <i class="fa-brands fa-java"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="6">
+                    <img src="img/Tecnologys/sql.jpg" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_sql">SQL <i class="fa-solid fa-database"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="7">
+                    <img src="img/Tecnologys/git.png" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_git">GIT <i class="fa-brands fa-git-alt"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="8">
+                    <img src="img/Tecnologys/github.jpg" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_github">GIT HUB <i
+                                class="fa-brands fa-github-alt"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="9">
+                    <img src="img/Tecnologys/react.jpg" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_react">REACT <i class="fa-brands fa-react"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="10">
+                    <img src="img/Tecnologys/sass.png" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_sass">SASS <i class="fa-brands fa-sass"></i></h2>
+                    </div>
+                </div>
+                <div class="carrusel_body" data-id="11">
+                    <img src="img/Tecnologys/tailwind.png" class="slider_img" width="100%">
+                    <div class="texto_carrusel">
+                        <h2 class="titulo_carrusel titulo_carrusel_tailwind">TAILWIND CSS <i class='bx bxl-tailwind-css'></i></h2>
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-hand-point-right slider_arrow" id="before"></i>
+                <!-- <img src="img/right_arrow.svg" class="slider_arrow" id="next" alt="right arrow" > -->
+            </div>
+
+        </section>
+
+        <h4 class="h4" id="SeccionDeContacto"><span class="typed4"></span></h4>
+        <div class="h4" id="cadena-texto-contacto">
+            <h4>DÉJAME TUS <i class="texto">comentarios</i> </h4>
+        </div>
+        <!-- <hr> -->
+        <section class="contact" id="seccionContact">
+            <div class="contact-img">
+                <img src="img/imagen-web-desing.svg" alt="Picture Jhon" width="auto" height="auto">
+            </div>
+            <div class="contact-form">
+                <fieldset class="fieldset">
+                    <h4>Enviame un Mensaje</h4>
+                    <form class="formulario b-before" action="https://formspree.io/f/xyyvnloa" method="POST">
+                        <input type="text" name="name" id="texto" placeholder="Nombre" required>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <input type="number" id="telefono" placeholder="Teléfono" pattern="[0-9]{10}"
+                            title="El teléfono debe tener 10 números" placeholder="Teléfono">
+                        <p>¿Te gustó el portafolio?</p>
+                        <div class="forma-radio">
+                            <label for="telefono-radio"><i class="fa-solid fa-thumbs-up"></i></label>
+                            <input type="radio" id="telefono-radio" name="grupocontacto" hidden>
+                            <label for="correo-radio"><i class="fa-solid fa-thumbs-down"></i></label>
+                            <input type="radio" id="correo-radio" name="grupocontacto" hidden>
+                        </div>
+                        <textarea placeholder="Mensaje..." name="message" required></textarea>
+                        <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                    </form>
+                    <!-- <a href="mailto:neidernieto@unisangil.edu.co" id="truco">Mail</a> -->
+                </fieldset>
+            </div>
+        </section>
+        <!-- <hr class="hr2"> -->
+        <!-- boton hacia arriba -->
+        <div class="button-up">
+            <i class="fa-solid fa-hand-point-up"></i>
+        </div>
+
+        <footer class="footer" id="seccionFooter">
+            <div class="contenedor-footer">
+                <div class="seccionUno p-footer">
+                    <h2>Contactáme</h2>
+                    <p>Carrera 11B # 99 – 25 – Chiquinquirá-Boyacá, Colombia</p>
+                    <p>(+57) 3132405135</p>
+                </div>
+                <div class="seccionDos">
+                    <div class="colum-footer">
+                        <a href="#">Experiencia</a>
+                        <ul class="list-footer">
+                            <li>Vendedor</li>
+                            <li>Asesor en Banco</li>
+                            <li>Técnico en Sistemas</li>
+                        </ul>
+                    </div>
+                    <div class="colum-footer">
+                        <a href="#">Herramientas</a>
+                        <ul class="list-footer">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="colum-footer">
+                        <a href="#">Estudios</a>
+                        <ul class="list-footer">
+                            <li>Técnico</li>
+                            <li>Ingeniería</li>
+                            <li>Especialización</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-network">
+                <a href="https://wa.me/573132405135" target="_blank"><i class="fab fa-whatsapp fab2"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/neider.stith/" target="_blank"><i class="fab fa-facebook fab2"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/neidernieto/" target="_blank"><i
+                        class="fab fa-brands fa-linkedin fab2"></i></a>
+                <a href="https://www.instagram.com/neider_niet0/" target="_blank"><i class="fab fa-instagram fab2"
+                        aria-hidden="true"></i></a>
+                <a href="https://twitter.com/NeiderNieto10" target="_blank"><i class="fab fa-twitter-square fab2"
+                        aria-hidden="true"></i></a>
+                <a href="https://github.com/NesniDev" target="_blank"><i
+                        class="fab fa-brands fa-github fa-githubicon fab2" aria-hidden="true"></i></a>
+            </div>
+
+            <p class="derechos">Neider Nieto © 2022 | Todos los derechos reservados.</p>
+    </div>
+    </footer>
+    <section class="modal">
+        <div class="modal_container">
+            <img src="img/Image-Modall.svg" class="modal_img" alt="Imagen Modal">
+            <h2 class="modal_title">Hola Soy Neider!</h2>
+            <p class="modal_paragrah">Soy una persona creativa, responsable, puntual, disciplinada, ordenada, cordial,
+                sencilla y honesta;
+                con habilidad para adaptarse a las diferentes necesidades de la organización, garantizando calidad,
+                eficiencia y asumiendo un alto grado de pertenencia, capaz de dar y/o contribuir a la solución de
+                problemas y toma de decisiones en forma estratégica,
+                con énfasis en el área de sistemas; capacitado para el trabajo
+                en equipo e individual, con excelentes relaciones interpersonales.</p>
+            <a href="#" class="modal_botonClose">Cerrar</a>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- <script src="https://use.fontawesome.com/your-embed-code.js"></script>  -->
+    <script src="js/main.js"></script>
+
+    <!-- <script src="js/carrusel.js"></script> -->
+    <!-- <script src="js/sweetAlert.js"></script> -->
+</body>
+
+</html>

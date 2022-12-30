@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="icon" href="../img/icono.png">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mejorasJS.css">
+    <link rel="stylesheet" href="../css/mediaquerys.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="bar-nav" id="bar-nav">
+                <div class="brand">
+                    <a href="#"><i class="fab fa-connectdevelop"></i></a>
+                </div>
+                <ul class="menu-list" id="menu">
+                    <!-- <li class="nav__item"><a href="#">Inicio</a></li> -->
+                    <li class="nav__item"><a href="#SeccionDeProyectos">Proyectos</a></li>
+                    <li class="nav__item"><a href="#SeccionDeHabilidades">Habilidades</a></li>
+                    <li class="nav__item"><a href="#SeccionDeContacto">Contacto</a></li>
+                </ul>
+
+                <div class="dark-mode">
+                    <!-- <p class="dark-mode-title">Dark Mode</p> -->
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <!-- <i class="fab fa-duotone fa-moon"></i> -->
+                    <label class="switch" for="checkbox"></label>
+                </div>
+                <a href="#bar-nav" class="nav__hamburguer">
+                    <i class="fa-solid fa-bars nav__icon"></i>
+                </a>
+                <a href="#" class="nav__close">
+                    <i class="fa-solid fa-xmark nav__icon"></i>
+                </a>
+            </nav>
+            <div class="social-fixed" id="seccionIcono">
+                <a href="https://www.facebook.com/neider.stith/" target="__blank" class="button-whatsapp">
+                    <img src="../img/icono-facebook.svg" class="fab3" alt="icono whatsapp">
+                </i></a>
+                <a href="https://wa.me/573132405135" target="__blank" class="button-whatsapp">
+                    <img src="../img/icono-whatsapp.svg" class="fab3" alt="icono whatsapp">
+                </i></a>
+            </div>
+        </header>
+        <hr>
+
+        <section class="info-personal" id="seccionPersonal">
+            <div class="info-personal-content">
+                <h2>Neider Stith Nieto R.</h2>
+                <h5>Desarrollador Frontend</h5>
+                <p>Soy una persona creativa, responsable, puntual, disciplinada, ordenada, cordial, sencilla y honesta;
+                    Habilidad para adaptarse a las diferentes necesidades de la organización, garantizando calidad,
+                    eficiencia y asumiendo un alto grado de pertenencia, capaz de dar y/o contribuir a la solución de
+                    problemas enmarcados en el área de la investigación y toma de decisiones en forma estratégica,
+                    correcta y en momentos oportunos, con énfasis en las áreas de sistemas; capacitado para el trabajo
+                    en equipo e individual, con excelentes relaciones interpersonales.</p>
+                <div class="btn-download-center">
+                    <a href="#" target="_blank" class="btn-download">Ver Curriculum</a>
+                </div>
+            </div>
+            <div class="info-personal-image">
+
+            </div>
+        </section>
+
+        <h4 class="h4"><span class="typed"></span></h4>
+        <div class="h4" id="cadena-texto">
+            <h4>SOBRE MI - <i class="texto">carrera</i> </h4>
+        </div>
+        <hr>
+
+        <div class="show-slide b-before" id="seccionSlide">
+            <h2>Ingeniero de Sistemas</h2>
+            <p>Ingeniero de sistemas y especialista en Mercadeo Estratégico en Unisangil - Chiquinquirá </p>
+            <a href="#" class="btn">Leer Más <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <h4 class="h4"><span class="typed2"></span></h4>
+        <div class="h4" id="cadena-texto-proyecto">
+            <h4>SOBRE MIS - <i class="texto" id="SeccionDeProyectos">proyectos</i> </h4>
+        </div>
+        <hr>
+        <section class="projects b-before" id="seccionProjects">
+            <article class="projects-one line-top line-bottom ">
+                <div class="projects-one-img img1"></div>
+                <h2>Portafolio</h2>
+                <p class="cursiva">html, css, js</p>
+                <p class="project-texto">Portafolio responsivo donde se encuentra toda la información referente a mi vida (trabajos, estudios, aprendizajes, etc.) en la web.</p>
+                <div class="iconos-card">
+                    <a href="#"><i class="fas fa-cloud"></i></a>
+                    <a href="#"><i class="circle fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img2"></div>
+                <h2>Frontend Mentor</h2>
+                <p class="cursiva">html, css, js</p>
+                <p class="project-texto">En este apartado se evidencian proyectos que he desarrollado con base a las plantillas de frontend mentor.</p>
+                <div class="iconos-card">
+                    <a href="#"><i class="fas fa-cloud"></i></a>
+                    <a href="#"><i class="circle fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+
+            <article class="projects-one line-top line-bottom">
+                <div class="projects-one-img img3"></div>
+                <h2>Farmacia</h2>
+                <p class="cursiva">html, css, php, mysql, edmilt</p>
+                <p class="project-texto">Proyecto sobre una farmacia que permite administrar los productos internos para una mejor organización de sus productos</p>
+                <div class="iconos-card">
+                    <a href="#"><i class="fas fa-cloud"></i></a>
+                    <a href="#"><i class="circle fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-code"></i></a>
+                </div>
+            </article>
+        </section>
+        <h4 class="h4"><span id="SeccionDeProyectos" class="typed3"></span></h4>
+        <div class="h4" id="cadena-texto-habilidades">
+            <h4>SOBRE MIS - <i class="texto" id="SeccionDeHabilidades">habilidades</i> </h4>
+        </div>
+        <hr>
+        <section class="expert b-before" id="seccionTools">
+            <i class="fa-brands fa-bootstrap hol icon">
+                <p>BOOSTRAP</p>
+            </i>
+            <i class="fa-brands fa-html5 hol icon">
+                <p>HTML</p>
+            </i>
+            <i class="fa-brands fa-css3-alt hol icon">
+                <p>CSS</p>
+            </i>
+            <i class="fa-brands fa-js hol icon">
+                <p>JAVASCRIPT</p>
+            </i>
+            <i class="fa-brands fa-github hol icon">
+                <p>GITHUB</p>
+            </i>
+            <i class="fa-brands fa-git hol icon">
+                <p>GIT</p>
+            </i>
+            <i class="fa-brands fa-java hol icon">
+                <p>JAVA</p>
+            </i>
+            <i class="fa-solid fa-database hol icon">
+                <p>DATABASE</p>
+            </i>
+        </section>
+        <h4 class="h4"><span class="typed4"></span></h4>
+        <div class="h4" id="cadena-texto-contacto">
+            <h4>PARA <i class="texto" id="SeccionDeContacto">contactar</i> </h4>
+        </div>
+        <hr>
+        <section class="contact" id="seccionContact">
+            <div class="contact-img" >
+                <img src="../img/imagen-web-desing.svg" alt="Picture Jhon" width="auto" height="auto">
+            </div>
+            <div class="contact-form">
+                <fieldset class="fieldset">
+                    <h4>Enviame un Mensaje</h4>
+                    <form class="formulario b-before" action="https://formspree.io/f/xyyvnloa" method="POST">
+                        <input type="text" name="name" id="texto" placeholder="Nombre" required>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <input type="number" id="telefono" placeholder="Teléfono" pattern="[0-9]{10}"
+                            title="El teléfono debe tener 10 números" placeholder="Teléfono">
+                        <p>¿Te gustó el portafolio?</p>
+                        <div class="forma-radio">
+                            <label for="telefono-radio">Si</label>
+                            <input type="radio" id="telefono-radio" name="grupocontacto">
+                            <label for="correo-radio">No</label>
+                            <input type="radio" id="correo-radio" name="grupocontacto">
+                        </div>
+                        <textarea placeholder="Mensaje..." name="message" required></textarea>
+                        <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                    </form>
+                    <!-- <a href="mailto:neidernieto@unisangil.edu.co" id="truco">Mail</a> -->
+                </fieldset>
+            </div>
+        </section>
+        <hr class="hr2">
+        <!-- boton hacia arriba -->
+        <div class="button-up">
+            <i class="fa-solid fa-hand-point-up"></i>
+        </div>
+        <footer class="footer" id="seccionFooter">
+            <div class="contenedor-footer">
+                <div class="seccionUno p-footer">
+                    <h2>Contactáme</h2>
+                    <p>neidernieto@unisangil.edu.co</p>
+                    <p>Carrera 11B # 99 – 25 – Chiquinquirá-Boyacá, Colombia</p>
+                    <p>(+57) 3132405135</p>
+                </div>
+                <div class="seccionDos">
+                    <div class="colum-footer">
+                        <a href="#">Quién Soy</a>
+                        <ul class="list-footer">
+                            <li>Familia</li>
+                            <li>Amigos</li>
+                            <li>Nucleo Familiar</li>
+                        </ul>
+                    </div>
+                    <div class="colum-footer">
+                        <a href="#">Herramientas</a>
+                        <ul class="list-footer">
+                            <li>Visual Studio</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="colum-footer">
+                        <a href="#">Estudios</a>
+                        <ul class="list-footer">
+                            <li>Bachiller</li>
+                            <li>Técnico</li>
+                            <li>Ingeniero</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="social-network">
+                <i class="fab fa-twitter-square fab2" aria-hidden="true"></i>
+                <i class="fab fa-instagram fab2" aria-hidden="true"></i>
+                <i class="fab fa-whatsapp fab2" aria-hidden="true"></i>
+            </div>
+            <p>Neider © 2022 | Todos los derechos reservados.</p>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- <script src="https://use.fontawesome.com/your-embed-code.js"></script>  -->
+    <script src="main.js"></script>
+    <!-- <script src="js/sweetAlert.js"></script> -->
+</body>
+
+</html>

@@ -1,3 +1,4 @@
+
 // Detectar media querys - api para detectarlo
 const checkbox = document.querySelector('#checkbox')
 //
@@ -312,3 +313,4 @@ function slider(){
 }
 
 slider()
+

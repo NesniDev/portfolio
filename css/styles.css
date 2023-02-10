@@ -725,6 +725,15 @@ h4{
     background-image: url(../img/Color-Picker.png);
     background-position: center;
 }
+.img11 {
+    background-image: url(../img/tasklist.jpg);
+    background-position: center;
+}
+.img12 {
+    background-image: url(../img/pagina_educativa.jpg);
+    background-position: center;
+    object-fit: cover;
+}
 .projects-one h2,
 .projects-one p {
     color: var(--letraCard);

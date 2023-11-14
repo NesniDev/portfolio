@@ -167,6 +167,7 @@ body {
 
 .bar-nav {
     /* border: 1px solid red; */
+    font-family: Playpen Sans, sans-serif;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     gap: 20px;
@@ -182,6 +183,28 @@ body {
     /* font-family: 'Tangerine', cursive;
     font-size: 30px;
     font-weight: 600; */
+    height: 10vh;
+    
+}
+
+.nav__item a{
+    position: relative;
+}
+
+.nav__item a::after{
+    content: "";
+    position: absolute;
+    background-color: var(--color-menu);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: width 0.5s ease-out;
+    border-radius: 20px;
+}
+
+a:hover::after{
+    width: 100%;
 }
 
 .bar-nav.visible{
@@ -218,7 +241,7 @@ h1 {
 
 h4{
     color: var(--baseColor);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Playpen Sans;
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -226,7 +249,7 @@ h4{
 }
 .h5{
     color: var(--iconFab);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Playpen Sans;
     font-size: 40px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -256,10 +279,10 @@ h4{
 .menu-list a:hover {
 
     color: var(--color-menu);
-    border-bottom: 4px solid var(--color-menu);
-    padding-bottom: 15px;
-    transition: border-bottom .2s;
-    border-radius: 40%;
+    /* border-bottom: 4px solid var(--color-menu); */
+    /* padding-bottom: 15px; */
+    /* transition: border-bottom .2s; */
+    /* border-radius: 40%; */
 }
 
 .brand a {
@@ -269,6 +292,7 @@ h4{
 /* seccion 2 */
 
 .info-personal {
+    
     width: 100%;
     height: 100%;
     display: grid;
@@ -278,8 +302,10 @@ h4{
     opacity: 0;
     transform: scale(0.9);
     transition: .7s ease-in-out all ;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 70px;
+    align-items: center;
+    height: 80vh;
 }
 
 .info-personal.visible{
@@ -352,6 +378,7 @@ h4{
 
 
 .btn-download {
+    font-family: Playpen Sans;
     background: var(--btnDownload);
     color: var(--letrabtn2);
     padding: 13px 13px;
@@ -407,19 +434,23 @@ h4{
 
 .info-personal-content h2 {
     font-size: 30px;
+    font-family: Playpen Sans;
 }
 .info-personal-content p {
     font-size: 20px;
     margin-bottom: 25px;
+    
 }
 
 .info-personal-content h5 {
     font-size: 20px;
     padding: .4em 0;
     text-align: justify;
+    font-family: Playpen Sans;
 }
 
 .show-slide{
+    
     border-radius: 15px;
     width: 100%;
     height: 70vh;
@@ -446,15 +477,20 @@ h4{
     transform: scale(1);
 }
 .show-slide q{
+    font-family: Playpen Sans;
     font-style: italic;
     font-weight: 700;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 0;
 }
+.show-slide h2{
+    font-family: Playpen Sans;
+}
 
 .show-slide a {
     color: white;
+    font-family: Playpen Sans;
 }
 
 .btn {
@@ -484,6 +520,7 @@ h4{
 /* MODAL */
 
 .modal{
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -521,6 +558,7 @@ h4{
 
 .modal_title{
     font-size: 40px;
+    font-family: Playpen Sans;
 }
 
 .modal_paragrah{
@@ -738,7 +776,11 @@ h4{
 .projects-one p {
     color: var(--letraCard);
     margin: 10px 10px;
+    
 
+}
+.projects-one h2{
+    font-family: Playpen Sans;
 }
 .projects-one .project-texto {
     margin-bottom: 1em;
@@ -746,8 +788,8 @@ h4{
 }
 
 .iconos-card a{
-    color: var(--iconoCard);
-    background: var(--backgroundIcon);
+    color: var(--black);
+    background: var(--iconoCard);
     padding: 10px;
     border-radius: 50%;
 }
@@ -796,6 +838,7 @@ h4{
 /* HERRAMIENTAS */
 
 .expert{
+    font-family: Playpen Sans;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr));
     
@@ -912,7 +955,7 @@ h4{
     /* grid-template-columns: repeat(2, 1fr); */
     width: 100%;
     height: 100%;
-    color: var(--letraContact);
+    color: var(--baseColor);
     margin-top: 30px;
     margin-bottom: 60px;
     /* border: 1px solid red; */
@@ -944,6 +987,7 @@ h4{
 
 .contact h4 {
     margin-bottom: 12px;
+    font-family: Playpen Sans;
 }
 
 .formulario input {
@@ -951,8 +995,8 @@ h4{
     padding: 10px 20px;
     background: none;
     border: none ;
-    border-bottom: 1px solid var(--letraContact);
-    color: var(--letraContact);
+    border-bottom: 1px solid var(--baseColor);
+    color: var(--baseColor);
 }
 
 .formulario {
@@ -965,14 +1009,16 @@ h4{
 
 .fieldset {
     padding: 20px;
-    border: 1px solid var(--letraContact);
+    border: 1px solid var(--baseColor);
     border-radius: 15px;
 }
 
 .fieldset h4 {
+    
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
+    font-family: Playpen Sans;
 }
 
 
@@ -982,7 +1028,7 @@ h4{
     border: none;
     color: var(--letraContact);
     padding: 25px;
-    border: 1px solid var(--letraContact);
+    border: 1px solid var(--baseColor);
     margin-bottom: 10px;
     border-radius: 10px;
   }
@@ -992,7 +1038,8 @@ h4{
     padding-top: 10px;
     padding-bottom: 16px;
     justify-content: center;
-    max-width: 30rem;
+    align-items: center;
+    /* max-width: 30rem; */
     align-items: center;
   }
 .forma-radio label .fa-thumbs-up:hover{
@@ -1015,15 +1062,18 @@ h4{
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+    
 }
 
   .formulario p{
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
+    font-family: Playpen Sans;
   }
 
   input[type="radio"]{
+    
     width: auto;
     margin-bottom: 0;
     cursor: pointer;
@@ -1040,6 +1090,7 @@ h4{
     text-transform: uppercase;
     justify-self: center;
     cursor: pointer;
+    font-family: Playpen Sans;
     }
 
   .btn-submit:hover {
@@ -1135,6 +1186,7 @@ h4{
     font-size: 3em;
     font-weight: 600;
     color: var(--orange);
+    font-family: Playpen Sans;
   }
 
   .p-footer p {
@@ -1156,6 +1208,7 @@ h4{
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
+    font-family: Playpen Sans;
 
 }
 
@@ -1223,6 +1276,10 @@ h4{
   .footer p{
     color: var(--baseColor);
     text-align: center;
+  }
+
+  .derechos{
+    font-family: Playpen Sans;
   }
   
 

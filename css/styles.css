@@ -8,10 +8,11 @@
     bottom: 30px;
     right: 10px;
     z-index: 100;
+    transition: 0.7s ease-in-out;
 }
 
 .social-fixed a:hover{
-    transition: 0.7s ease-in-out;
+    
     transform: scale(1.2);
 }
 
@@ -326,10 +327,11 @@ h4{
     grid-column: 6 / 8;
     grid-row: 1 / 6;
     background: var(--fondoImg);
-    background-image: url(../img/Foto.png);
+    background-image: url(../img/Foto3.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    background-position: center center;
     box-shadow: var(--shadowImge);
     /* border: 1px solid rgb(31, 28, 31); */
     border-radius: 10px;
@@ -386,6 +388,7 @@ h4{
     box-shadow: var(--boxShadowImg);
     font-weight: 700;
     position: relative;
+    transition: transform .4s ease-in-out;
 }
 /* 
 .btn-download::before{
@@ -429,7 +432,7 @@ h4{
 
 .btn-download:hover {
     transform: scale(1.1);
-    transition: transform .4s ease-in-out;
+    
 }
 
 .info-personal-content h2 {
@@ -792,12 +795,13 @@ h4{
     background: var(--iconoCard);
     padding: 10px;
     border-radius: 50%;
+    transition: ease 1s;
 }
 
 .iconos-card a:hover {
     background: var(--baseColor);
     color: var(--letraCard);
-    transition: ease 1s;
+    
 }
 
 .iconos-card {
@@ -827,11 +831,12 @@ h4{
     background-color: var(--baseColor);
     border-radius: 8px;
     font-size: 30px;
+    transition: opacity .3s ease-in-out;
 }
 .button_projects a:hover{
     opacity: .9;
     color: var(--white);
-    transition: opacity .3s ease-in-out;
+    
 }
 
 
@@ -856,11 +861,12 @@ h4{
 .hol {
     font-size: 65px;
     margin: auto;
+    transition: transform .5s ease-in-out;
 }
 
 .hol:hover{
     transform: scale(1.2);
-    transition: transform .5s ease-in-out;
+    
 }
 .icon {
     margin: 10px 0px; 
@@ -1042,9 +1048,16 @@ h4{
     /* max-width: 30rem; */
     align-items: center;
   }
+.forma-radio label .fa-thumbs-up{
+    
+    transition: transform .4s;
+}
 .forma-radio label .fa-thumbs-up:hover{
     color: #0cdb62;
     transform: scale(2);
+}
+.forma-radio label .fa-thumbs-down{
+    
     transition: transform .3s;
 }
 .forma-radio label .fa-thumbs-down:hover{
@@ -1091,6 +1104,7 @@ h4{
     justify-self: center;
     cursor: pointer;
     font-family: Playpen Sans;
+    transition: transform .7s ease-in-out;
     }
 
   .btn-submit:hover {
